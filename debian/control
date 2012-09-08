@@ -1,0 +1,23 @@
+Source: libikiwiki-plugin-disqus-perl
+Section: perl
+Priority: optional
+Build-Depends:
+ debhelper (>= 7.0.50),
+ ikiwiki,
+ libmodule-build-perl (>= 0.400100)
+Maintainer: Rogério Brito <rbrito@ime.usp.br>
+Standards-Version: 3.9.3
+Homepage: http://search.cpan.org/dist/IkiWiki-Plugin-disqus/
+
+Package: libikiwiki-plugin-disqus-perl
+Architecture: all
+Depends:
+ ikiwiki,
+ ${misc:Depends},
+ ${perl:Depends}
+Description: plugin for ikiwiki to allow comments via Disqus
+ This is a plugin that makes it easy for you to add Disqus comments to pages
+ and blog posts in IkiWiki.
+ .
+ It also provides a way to allow you to prevent comments from being posted
+ on certain pages.

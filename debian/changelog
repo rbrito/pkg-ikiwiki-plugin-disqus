@@ -1,0 +1,11 @@
+libikiwiki-plugin-disqus-perl (0.01-1~4.gbpc84d8f) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @c84d8f22758da5e99ca497185282a15f5315f387 **
+
+  * Initial release. (Closes: #XXXXXX)
+  * debian/control: Add a newer build-dep on libmodule-build-perl.
+  * debian/control: Add build-dep on ikiwiki.
+  * debian/control: Update standards-version to 3.9.3.
+  * debian/control: Version the build-dep on libmodule-build-perl.
+
+ -- Rogério Brito <rbrito@ime.usp.br>  Fri, 07 Sep 2012 23:11:01 -0300
