@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Contact: Randall Smith <perlstalker@vuser.org>
-Source: http://search.cpan.org/dist/IkiWiki-Plugin-disqus/
+Source: https://code.google.com/p/ikiwiki-plugin-disqus/
 Upstream-Name: IkiWiki-Plugin-disqus
 
 Files: *
