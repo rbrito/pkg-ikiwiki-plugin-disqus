@@ -1,3 +1,2 @@
 version=3
-opts=uversionmangle=s/_/./ \
-	http://search.cpan.org/dist/IkiWiki-Plugin-disqus/   .*/IkiWiki-Plugin-disqus-v?(\d[\d.]+)\.(?:tar(?:\.gz|\.bz2)?|tgz|zip)$
+http://code.google.com/p/ikiwiki-plugin-disqus/downloads/list?can=1 .*/IkiWiki-Plugin-disqus-(\d\S*)\.(?:zip|tgz|tbz|txz|(?:tar\.(?:gz|bz2|xz)))
