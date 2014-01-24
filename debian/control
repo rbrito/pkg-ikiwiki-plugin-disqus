@@ -4,7 +4,7 @@ Priority: optional
 Build-Depends:
  debhelper (>= 9),
  ikiwiki,
- libmodule-build-perl (>= 0.400100)
+ perl (>= 5.18) | libmodule-build-perl (>= 0.400100)
 Maintainer: Rogério Brito <rbrito@ime.usp.br>
 Standards-Version: 3.9.3
 Homepage: http://search.cpan.org/dist/IkiWiki-Plugin-disqus/
